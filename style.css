@@ -1,0 +1,70 @@
+body{
+    background-color: #ddd;
+}
+.profile-area{
+padding: 80px 0;
+}
+.container{
+/* height: 100%;
+width: 200%; */
+}
+.row{
+
+}
+.card{
+box-shadow: 0 0 300px rgba(212, 238, 230, 0.404);
+overflow: hidden;
+ border-radius: 15px;
+ background-image: linear-gradient(to right, rgba(158, 247, 140, 0.808), rgba(247, 116, 116, 0.61));
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius:15px ;
+    border-top-left-radius:15px ;
+    width: 100%;
+}
+
+.img2 img{
+position: relative;
+display: block;
+margin-right: auto;
+z-index: 1;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+border: 7px solid #fff;
+margin-top: -80px;
+margin-left: 110px;
+}
+
+.card :hover .img2 img{
+background-color: darkcyan;
+transition: 0.7s;
+}
+.card-body {
+padding: 30px 0;
+text-align: center;
+
+}
+
+.card-body h2{
+text-transform: uppercase;
+font-weight: 900;
+font-size: 20px;
+margin: 0 0 20px;
+}
+
+.card-body p {
+font-size: 16px;
+padding: 0 35px;
+}
+
+.socials{
+text-align: center;
+padding-bottom:20px ;
+}
+.socials i{
+font-size: 20px;
+color: darkcyan;
+padding: 0 5px;
+}
