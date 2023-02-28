@@ -16,6 +16,8 @@ box-shadow: 0 0 300px rgba(212, 238, 230, 0.404);
 overflow: hidden;
  border-radius: 15px;
  background-image: linear-gradient(to right, rgba(158, 247, 140, 0.808), rgba(247, 116, 116, 0.61));
+ /* align-items: center; */
+
 }
 .img1 img{
     height: 200px;
@@ -34,13 +36,16 @@ height: 150px;
 border-radius: 50%;
 border: 7px solid #fff;
 margin-top: -80px;
-margin-left: 110px;
-}
+margin-left: auto;
 
-.card :hover .img2 img{
-background-color: darkcyan;
-transition: 0.7s;
 }
+/* .card-body :hover .card-body p
+{
+background-color: rgb(5, 240, 240);
+
+transition: 0.7s;
+
+} */
 .card-body {
 padding: 30px 0;
 text-align: center;
